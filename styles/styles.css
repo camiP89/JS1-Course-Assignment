@@ -1,0 +1,214 @@
+header,
+footer,
+h1,
+h2 {
+    font-family: "Alumni sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    position: relative;
+    background-color: #113340;
+    color: #f2b544;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    width: 50%;
+    font-weight: bold;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+
+body {
+    font-family: "Cantarell", Georgia, 'Times New Roman', Times, serif;
+    background-color: #69868C;
+}
+
+.mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+.mobile-header i {
+    font-size: 1.5rem;
+    color: #113340;
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked + nav {
+    display: block;
+}
+
+header {
+    position: relative;
+    font-size: 1.2rem;
+}
+
+nav {
+    position: absolute;
+    background: #d9d9d9;
+    width: 100%;
+    left: 0px;
+    top: 50px;
+    z-index: 10;
+}
+
+nav a {
+    display: block;
+    color: #113340;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:checked {
+    text-decoration: underline;
+    background-color: #113340;
+    color: #fff;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+    
+.logo {
+    max-width: 257px;
+    height: auto;
+    margin: 0;
+    padding-top: 10px;
+}
+    
+.logo-container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid #113340;  
+}
+
+.logo-footer {
+    width: 20vh;
+    height: auto;
+    padding-top: 20px;
+}
+
+.social-icons a {
+    font-size: 1.4rem;
+    gap: 30px;
+}
+
+.contact-details,
+.footer-links {
+    font-family: "Atma", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #113340;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 20px 0;
+}
+
+.museum-details p {
+    line-height: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #113340;
+    font-size: 0.875rem;
+    line-height: 1.9;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: underline;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+@media (min-width: 600px) {
+    #menu-checkbox,
+    .hamburger-icon, 
+    .mobile-header {
+        display: none;
+    }
+       
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #113340;
+        padding: 10px 0;
+        margin: 0;
+        top: 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .logo-container {
+        position: relative;
+        justify-content: center;
+        margin: 0;
+    }
+        
+    .logo {
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    nav a {
+        display: inline-block;
+        color: #fff;
+        padding: 0 15px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        text-decoration: underline;
+    }
+
+    nav a i {
+        font-size: 1.2rem;
+        margin-left: 5px;
+    }
+
