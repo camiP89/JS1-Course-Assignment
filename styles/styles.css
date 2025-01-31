@@ -55,7 +55,7 @@ header {
 
 nav {
     position: absolute;
-    background: var(--light-grey);
+    background: var(--dark-blue);
     width: 100%;
     left: 0px;
     top: 50px;
@@ -64,7 +64,7 @@ nav {
 
 nav a {
     display: block;
-    color: var(--dark-blue);
+    color: var(--white);
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -100,15 +100,15 @@ nav a:checked {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 45px;
     background-color: var(--yellow);
     color: var(--dark-blue);
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin: 20px 20px 0 20px;
+    margin: 20px;
     font-weight: bold;
     border: 4px solid var(--dark-blue);
     border-radius: 5px;
@@ -120,7 +120,7 @@ nav a:checked {
 .cta:hover,
 .cta:focus {
     color: var(--dark-blue);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 700;
     -webkit-background-origin: var(--white);
     transform: scale(1.05);
@@ -148,8 +148,6 @@ footer a.footer-logo :focus {
     background-color: var(--yellow);
     color: none;
 }
-
-
 
 .social-icons a {
     font-size: 1.4rem;
